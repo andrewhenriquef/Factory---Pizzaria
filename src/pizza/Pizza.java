@@ -6,11 +6,22 @@ public abstract class Pizza {
 	
 	public abstract String getNome();
 
-	public abstract void preparar();
+	public String preparar(){
+		
+		return "Preparando";
+		
+	}
 	
-	public abstract void cortar();
+	public String cortar(){
+		
+		return "Cortando";
+	}
 	
-	public abstract void empacotar();
+	public String empacotar(){
+		
+		return "Empacotando";
+		
+	}
 
 
 
